@@ -184,7 +184,7 @@ span {
 				<a href="${pageContext.request.contextPath}/reservations">Gestion des réservations</a>
 			</div>
 			<div class="copyright-container">
-				<span>Copyright &copy; 2022 Tous droits reservés</span>
+				<span>Copyright &copy; 2022 Valéry Kalombo </span>
 			</div>
 
 		</div>
