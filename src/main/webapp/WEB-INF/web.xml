@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://Java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>GestionHotel</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  	<servlet>
+		<servlet-name>GestionReservation</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.GestionReservation</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>GestionChambre</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.GestionChambre</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddChambre</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.AddChambre</servlet-class>			    
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddReservation</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.AddReservation</servlet-class>			    
+	</servlet>
+	
+	<servlet>
+		<servlet-name>DeleteChambre</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.DeleteChambre</servlet-class>			    
+	</servlet>
+	
+	<servlet>
+		<servlet-name>EditChambre</servlet-name>
+		<servlet-class>com.mycompagny.gestionhotel.Servlets.EditChambre</servlet-class>			    
+	</servlet>
+	
+		
+  
+</web-app>
