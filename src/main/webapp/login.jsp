@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Application de Gestion</title>
+<title>Application de Gestion Hotel</title>
 <link rel="shortcut icon" href="images/logo.png">
 <style type="text/css">
 html, body * {
